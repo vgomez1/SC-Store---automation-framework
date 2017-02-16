@@ -2,6 +2,8 @@ package utilities;
 
 import java.time.LocalDateTime;
 
+import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
+
 public class Calc_Utilities {
 
 	public static String generateEmail(String IDcore){
@@ -14,5 +16,6 @@ public class Calc_Utilities {
 	    		+ "@steelcase.com";
 		return email;
 	}
-		
+	
+
 }

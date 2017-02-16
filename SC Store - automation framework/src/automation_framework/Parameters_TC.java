@@ -4,17 +4,16 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-import app_modules.RegisterNewUser_Action;
 import app_modules.SignIn_Action;
+import utilities.Constants;
 
-public class Module_TC {
-	
+public class Parameters_TC {
+
 		private static WebDriver driver = null;
 	
-	public static void main(String[] args) throws Exception{
-		//Open browser
+	public static void main(String[] args) throws Exception
+	{
 		
 		String driverPath = "C:\\workspaceV\\Libraries\\chromedriver_win32\\chromedriver.exe";
 //IE		System.setProperty("webdriver.ie.driver", "D:\\workspace\\IEDriverServer_Win32_3.0.0\\IEDriverServer.exe");
@@ -23,7 +22,7 @@ public class Module_TC {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://qastore.steelcase.com");
+		driver.get(Constants.URL);
 		
 		//Test case:  module Registration
 //		RegisterNewUser_Action.Execute(driver);
@@ -32,9 +31,5 @@ public class Module_TC {
 		SignIn_Action.Execute(driver);
 		
 		System.out.println("DONE...");
-		
-//		driver.quit();
 	}
-	
-
 }
