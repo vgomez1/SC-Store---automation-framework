@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import pageObjects.Home_Page;
-import utilities.Calc_Utilities;
+import utilities.Utils;
 import pageObjects.Create_Account;
 
 public class POM_TestCase {
@@ -31,7 +31,7 @@ public class POM_TestCase {
 		Create_Account.txtbx_FirstName(driver).sendKeys("Selenium");
 		Create_Account.txtbx_LastName(driver).sendKeys("Tests");
 		Create_Account.txtbx_PostCode(driver).sendKeys("64460");
-		Create_Account.txtbx_Email(driver).sendKeys(Calc_Utilities.generateEmail("Selenium"));
+		Create_Account.txtbx_Email(driver).sendKeys(Utils.generateEmail("Selenium"));
 		Create_Account.txtbx_Password(driver).sendKeys("Steelcase1");
 		Create_Account.txtbx_PwdConfirmation(driver).sendKeys("Steelcase1");
 		Create_Account.btn_Submit(driver).click();

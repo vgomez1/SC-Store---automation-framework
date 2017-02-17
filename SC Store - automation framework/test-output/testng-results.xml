@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12528" started-at="2017-02-16T23:03:51Z" finished-at="2017-02-16T23:04:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12528" started-at="2017-02-16T23:03:51Z" finished-at="2017-02-16T23:04:03Z">
+      <class name="automation_framework.UserDefinedFunctions_TC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automation_framework.UserDefinedFunctions_TC@7c75222b]" name="beforeMethod" is-config="true" duration-ms="9849" started-at="2017-02-16T17:03:51Z" finished-at="2017-02-16T17:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:automation_framework.UserDefinedFunctions_TC@7c75222b]" name="main" duration-ms="2663" started-at="2017-02-16T17:04:01Z" finished-at="2017-02-16T17:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automation_framework.UserDefinedFunctions_TC@7c75222b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-16T17:04:03Z" finished-at="2017-02-16T17:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automation_framework.UserDefinedFunctions_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -26,7 +26,9 @@ public class SignIn_Action {
 		
 		Home_Page.txtbx_password(driver).sendKeys(password);
 		Log.info("Password entered...");
+		
 		Home_Page.btn_login(driver).click();
+		Log.info("Click on login button...");
 	}
 
 }

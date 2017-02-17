@@ -72,4 +72,22 @@ public class ExcelUtils {
 		}
 	}
 	
+	public static int getRowContains(String sTestCaseName, int colNum) throws Exception{
+		try{
+			int i;
+			int rowCount = ExcelWSheet.getLastRowNum();
+			for (i=0; i<rowCount; i++){
+				if (ExcelUtils.getCellData(i, colNum).equalsIgnoreCase(sTestCaseName));
+					break;
+			}
+			return i;
+		}
+		catch (Exception e){
+			Log.error("Class ExcelUtil | Method getRowContains | Exception desc : " + e.getMessage() );
+			throw e;
+			
+		}
+		
+	}
+	
 }
