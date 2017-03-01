@@ -23,8 +23,8 @@ public class POM_TestCase {
 		driver.get("https://qastore.steelcase.com");
 		
 		//Usage of pageObject library
-		Home_Page.lnk_loginRegister(driver).click();
-		Home_Page.lnk_registerNow(driver).click();
+		Home_Page.Header.lnk_loginRegister(driver).click();
+		Home_Page.Header.lnk_registerNow(driver).click();
 		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		

@@ -1,12 +1,21 @@
 package utilities;
 
+import java.io.File;
 import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Utils {
@@ -47,7 +56,7 @@ public class Utils {
 			logInfoMessages_OpenBrowser();
 		}
 		else {
-			//default browser
+			Log.warn("Browser not specified, initiating Chrome as default...");
 			System.setProperty("webdriver.chrome.driver", Constants.chromedriverPath);
 			driver = new ChromeDriver();
 			logInfoMessages_OpenBrowser();
@@ -81,6 +90,44 @@ public class Utils {
 		}
 		catch (Exception e){
 			Log.error("Class Utils | Method getTestCaseName | Exeption desc : " + e.getMessage());
+			throw e;
+		}
+		
+	}
+	
+	public static void mouseHoverAction(WebElement element){
+		Actions action = new Actions(driver);
+		action.moveToElement(element).perform();
+		Log.info("Element " + element.getText().toString() + " found...");
+	}
+	
+	public static void mouseHoverAction(WebElement mainElement, String subElementName){
+		//If the main element has sub elements
+		Actions action = new Actions(driver);
+		action.moveToElement(mainElement).perform();
+		//moving to subElement
+		WebElement subElement = driver.findElement(By.partialLinkText(subElementName));
+		action.moveToElement(subElement);
+		Log.info("Sub Element " + subElementName + " found...");
+	}
+	
+	public static void waitForElement(WebElement element){
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	public static void waitFor(int seconds){
+		driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+	}
+	
+	public static void takeScreenShot(WebDriver driver, String sTestCaseName) throws Exception{
+		
+		try{
+			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(srcFile, new File(Constants.screenshotPath + sTestCaseName + ".jpg"));
+		}
+		catch (Exception e){
+			Log.error("Class Utils | Method takeScreenshot | Exception occurred while capturing Screenshot : " + e.getMessage());
 			throw e;
 		}
 		

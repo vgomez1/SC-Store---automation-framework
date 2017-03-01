@@ -2,8 +2,6 @@ package utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FilterInputStream;
-import java.io.FilterOutputStream;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -76,7 +74,7 @@ public class ExcelUtils {
 		try{
 			int i;
 			int rowCount = ExcelWSheet.getLastRowNum();
-			for (i=0; i<rowCount; i++){
+			for (i=0; i<rowCount;){
 				if (ExcelUtils.getCellData(i, colNum).equalsIgnoreCase(sTestCaseName));
 					break;
 			}

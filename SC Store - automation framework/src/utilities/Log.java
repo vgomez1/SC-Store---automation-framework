@@ -13,18 +13,22 @@ public class Log {
 	public static void startTestCase(String testCaseName){
 	
 		
-		log.info("******************** \n********************");
+		log.info("*********************************");
+		log.info("*********************************");
 		log.info("##########   " + testCaseName + "   ##########");
-		log.info("##########   " + Calendar.DATE + "   ########");
-		log.info("******************** \n********************");
+		//log.info("##########   " +  Calendar.MONTH + "-" + Calendar.DAY_OF_MONTH + "-" + Calendar.YEAR + "   ########");
+		log.info("*********************************");
+		log.info("*********************************");
 		
 	}
 	
 	//message at the end
 	public static void endTestCase(String testCaseName){
-		log.info("******************** \n********************");
+		log.info("*********************************");
+		log.info("*********************************");
 		log.info("##########    E N D    ##########");
-		log.info("******************** \n********************");
+		log.info("*********************************");
+		log.info("*********************************");
 	}
 	
 	public static void info(String message){

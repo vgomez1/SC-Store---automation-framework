@@ -106,3 +106,270 @@
 2017-02-16 17:04:03,756 INFO  [Log] ##########    E N D    ########## 
 2017-02-16 17:04:03,756 INFO  [Log] ******************** 
 ******************** 
+2017-02-17 08:19:59,761 INFO  [Log] ******************** 
+******************** 
+2017-02-17 08:19:59,762 INFO  [Log] ##########   SC Store - Sign in - TestCase 001   ########## 
+2017-02-17 08:19:59,762 INFO  [Log] ##########   5   ######## 
+2017-02-17 08:19:59,762 INFO  [Log] ******************** 
+******************** 
+2017-02-17 08:20:00,292 INFO  [Log] Excel sheet opened... 
+2017-02-17 08:20:30,572 INFO  [Log] New Driver instantiated... 
+2017-02-17 08:20:30,578 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 08:20:30,962 INFO  [Log] Maximizing window... 
+2017-02-17 08:20:45,657 INFO  [Log] Web application launched... 
+2017-02-17 08:20:45,763 INFO  [Log] Username: sa_testid 
+2017-02-17 08:20:45,763 INFO  [Log] Password: Steelcase1 
+2017-02-17 08:20:46,513 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 08:20:47,232 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 08:20:47,257 INFO  [Log] Email text box found 
+2017-02-17 08:20:48,395 INFO  [Log] Username entered... 
+2017-02-17 08:20:48,411 INFO  [Log] Password text box found 
+2017-02-17 08:20:48,458 INFO  [Log] Password entered... 
+2017-02-17 08:20:49,705 INFO  [Log] Submit button found 
+2017-02-17 08:20:55,145 INFO  [Log] Click on login button... 
+2017-02-17 08:20:55,146 INFO  [Log] Sign in succesfully... 
+2017-02-17 08:21:01,346 INFO  [Log] ******************** 
+******************** 
+2017-02-17 08:21:01,346 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 08:21:01,347 INFO  [Log] ******************** 
+******************** 
+2017-02-17 13:00:43,679 INFO  [Log] ******************** 
+******************** 
+2017-02-17 13:00:43,699 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 13:00:43,699 INFO  [Log] ##########   5   ######## 
+2017-02-17 13:00:43,699 INFO  [Log] ******************** 
+******************** 
+2017-02-17 13:00:46,690 ERROR [Log] Class ExcelUtil | Method getRowContains | Exception desc : null 
+2017-02-17 14:32:41,819 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:32:41,839 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:32:41,839 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:32:41,839 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:32:45,319 ERROR [Log] Class ExcelUtil | Method getRowContains | Exception desc : null 
+2017-02-17 14:33:48,640 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:33:48,640 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:33:48,640 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:33:48,640 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:33:49,154 ERROR [Log] Class ExcelUtil | Method getRowContains | Exception desc : null 
+2017-02-17 14:35:11,870 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:35:11,871 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:35:11,871 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:35:11,871 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:35:12,442 WARN  [Log] Browser not specified, initiating Chrome as default... 
+2017-02-17 14:36:17,967 INFO  [Log] New Driver instantiated... 
+2017-02-17 14:36:17,977 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 14:36:18,210 INFO  [Log] Maximizing window... 
+2017-02-17 14:36:38,485 INFO  [Log] Web application launched... 
+2017-02-17 14:36:38,961 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:36:40,071 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 14:36:40,108 INFO  [Log] Email text box found 
+2017-02-17 14:36:46,428 INFO  [Log] Username entered... 
+2017-02-17 14:36:46,882 INFO  [Log] Password text box found 
+2017-02-17 14:36:47,380 INFO  [Log] Submit button found 
+2017-02-17 14:36:47,380 INFO  [Log] Click on login button... 
+2017-02-17 14:36:47,452 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:36:47,490 INFO  [Log] Click on link LOGIN / REGISTER... 
+2017-02-17 14:36:47,521 INFO  [Log] Register Now... link found 
+2017-02-17 14:36:48,441 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:36:48,441 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 14:36:48,441 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:48:09,104 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:48:09,118 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:48:09,118 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:48:09,119 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:48:12,162 WARN  [Log] Browser not specified, initiating Chrome as default... 
+2017-02-17 14:48:44,643 INFO  [Log] New Driver instantiated... 
+2017-02-17 14:48:44,656 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 14:48:45,376 INFO  [Log] Maximizing window... 
+2017-02-17 14:48:57,790 INFO  [Log] Web application launched... 
+2017-02-17 14:48:58,369 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:48:58,641 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 14:48:58,705 INFO  [Log] Email text box found 
+2017-02-17 14:48:58,866 INFO  [Log] Username entered... 
+2017-02-17 14:48:58,891 INFO  [Log] Password text box found 
+2017-02-17 14:48:59,051 INFO  [Log] Submit button found 
+2017-02-17 14:48:59,052 INFO  [Log] Click on login button... 
+2017-02-17 14:48:59,143 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:48:59,177 INFO  [Log] Click on link LOGIN / REGISTER... 
+2017-02-17 14:48:59,209 INFO  [Log] Register Now... link found 
+2017-02-17 14:48:59,920 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:48:59,920 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 14:48:59,920 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:53:01,371 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:53:01,384 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:53:01,384 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:53:01,385 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:53:04,109 WARN  [Log] Browser not specified, initiating Chrome as default... 
+2017-02-17 14:53:35,289 INFO  [Log] New Driver instantiated... 
+2017-02-17 14:53:35,338 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 14:53:35,663 INFO  [Log] Maximizing window... 
+2017-02-17 14:53:48,631 INFO  [Log] Web application launched... 
+2017-02-17 14:53:48,910 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:53:48,959 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 14:53:48,979 INFO  [Log] Email text box found 
+2017-02-17 14:53:49,029 INFO  [Log] UserName entered... 
+2017-02-17 14:53:49,047 INFO  [Log] Password text box found 
+2017-02-17 14:53:49,094 INFO  [Log] Password entered... 
+2017-02-17 14:53:49,112 INFO  [Log] Submit button found 
+2017-02-17 14:53:49,112 INFO  [Log] Click on login button... 
+2017-02-17 14:53:49,114 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:53:49,114 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 14:53:49,114 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:56:25,470 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:56:25,470 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 14:56:25,470 INFO  [Log] ##########   5   ######## 
+2017-02-17 14:56:25,470 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:56:26,006 WARN  [Log] Browser not specified, initiating Chrome as default... 
+2017-02-17 14:56:31,855 INFO  [Log] New Driver instantiated... 
+2017-02-17 14:56:31,861 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 14:56:32,016 INFO  [Log] Maximizing window... 
+2017-02-17 14:56:39,474 INFO  [Log] Web application launched... 
+2017-02-17 14:56:39,537 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:56:39,590 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 14:56:39,612 INFO  [Log] Email text box found 
+2017-02-17 14:56:39,688 INFO  [Log] UserName entered... 
+2017-02-17 14:56:39,706 INFO  [Log] Password text box found 
+2017-02-17 14:56:39,751 INFO  [Log] Password entered... 
+2017-02-17 14:56:39,768 INFO  [Log] Submit button found 
+2017-02-17 14:56:43,448 INFO  [Log] Click on login button... 
+2017-02-17 14:56:43,470 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 14:56:43,517 INFO  [Log] Click on link LOGIN / REGISTER... 
+2017-02-17 14:56:43,713 INFO  [Log] Register Now... link found 
+2017-02-17 14:56:45,558 INFO  [Log] Click on link Register Now... 
+2017-02-17 14:56:45,800 INFO  [Log] Filling down the registration form... 
+2017-02-17 14:56:45,907 INFO  [Log] First Name text box found 
+2017-02-17 14:56:46,089 INFO  [Log] First Name entered... 
+2017-02-17 14:56:46,114 INFO  [Log] Last Name text box found 
+2017-02-17 14:56:46,170 INFO  [Log] Last Name entered... 
+2017-02-17 14:56:46,188 INFO  [Log] Postal code text box found 
+2017-02-17 14:56:46,244 INFO  [Log] Postal Name entered... 
+2017-02-17 14:56:46,260 INFO  [Log] Email text box found 
+2017-02-17 14:56:46,347 INFO  [Log] Email entered... 
+2017-02-17 14:56:46,363 INFO  [Log] Password text box found 
+2017-02-17 14:56:46,428 INFO  [Log] Password entered... 
+2017-02-17 14:56:46,448 INFO  [Log] Password Confirmation text box found 
+2017-02-17 14:56:46,517 INFO  [Log] Confimartion password entered... 
+2017-02-17 14:56:46,534 INFO  [Log] Submit button found 
+2017-02-17 14:56:49,341 INFO  [Log] Click on Submit... 
+2017-02-17 14:56:49,347 INFO  [Log] ******************** 
+******************** 
+2017-02-17 14:56:49,347 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 14:56:49,347 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:03:19,237 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:03:19,238 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:03:19,238 INFO  [Log] ##########   5   ######## 
+2017-02-17 15:03:19,238 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:03:24,888 ERROR [Log] LOGIN / REGISTER link not found 
+2017-02-17 15:03:24,936 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:03:24,936 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:03:24,936 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:04:24,300 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:04:24,300 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:04:24,300 INFO  [Log] ##########   5   ######## 
+2017-02-17 15:04:24,301 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:04:29,618 ERROR [Log] LOGIN / REGISTER link not found 
+2017-02-17 15:04:30,492 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:04:30,492 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:04:30,492 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:09:42,289 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:09:42,289 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:09:42,289 INFO  [Log] ##########   2-5-1   ######## 
+2017-02-17 15:09:42,289 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:09:47,078 ERROR [Log] LOGIN / REGISTER link not found 
+2017-02-17 15:09:47,231 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:09:47,231 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:09:47,231 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:12:02,454 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:12:02,454 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:12:02,454 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:12:02,962 WARN  [Log] Browser not specified, initiating Chrome as default... 
+2017-02-17 15:12:07,640 INFO  [Log] New Driver instantiated... 
+2017-02-17 15:12:07,652 INFO  [Log] Implicit wait for 10 seconds... 
+2017-02-17 15:12:08,038 INFO  [Log] Maximizing window... 
+2017-02-17 15:12:18,498 INFO  [Log] Web application launched... 
+2017-02-17 15:12:18,571 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 15:12:19,246 INFO  [Log] Click on LOGIN/REGISTER... 
+2017-02-17 15:12:19,270 INFO  [Log] Email text box found 
+2017-02-17 15:12:19,493 INFO  [Log] UserName entered... 
+2017-02-17 15:12:19,804 INFO  [Log] Password text box found 
+2017-02-17 15:12:19,886 INFO  [Log] Password entered... 
+2017-02-17 15:12:19,985 INFO  [Log] Submit button found 
+2017-02-17 15:12:25,999 INFO  [Log] Click on login button... 
+2017-02-17 15:12:26,030 INFO  [Log] LOGIN / REGISTER link found 
+2017-02-17 15:12:26,072 INFO  [Log] Click on link LOGIN / REGISTER... 
+2017-02-17 15:12:26,248 INFO  [Log] Register Now... link found 
+2017-02-17 15:12:29,862 INFO  [Log] Click on link Register Now... 
+2017-02-17 15:12:29,962 INFO  [Log] Filling down the registration form... 
+2017-02-17 15:12:30,000 INFO  [Log] First Name text box found 
+2017-02-17 15:12:30,127 INFO  [Log] First Name entered... 
+2017-02-17 15:12:30,195 INFO  [Log] Last Name text box found 
+2017-02-17 15:12:30,252 INFO  [Log] Last Name entered... 
+2017-02-17 15:12:30,269 INFO  [Log] Postal code text box found 
+2017-02-17 15:12:30,326 INFO  [Log] Postal Name entered... 
+2017-02-17 15:12:30,345 INFO  [Log] Email text box found 
+2017-02-17 15:12:30,433 INFO  [Log] Email entered... 
+2017-02-17 15:12:30,450 INFO  [Log] Password text box found 
+2017-02-17 15:12:30,515 INFO  [Log] Password entered... 
+2017-02-17 15:12:30,533 INFO  [Log] Password Confirmation text box found 
+2017-02-17 15:12:30,595 INFO  [Log] Confimartion password entered... 
+2017-02-17 15:12:30,614 INFO  [Log] Submit button found 
+2017-02-17 15:12:34,939 INFO  [Log] Click on Submit... 
+2017-02-17 15:12:34,941 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:12:34,941 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:12:34,942 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:21:24,182 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:21:24,183 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:21:24,183 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:21:46,319 ERROR [Log] LOGIN / REGISTER link not found 
+2017-02-17 15:21:46,495 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:21:46,495 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:21:46,495 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:22:15,519 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:22:15,520 INFO  [Log] ##########   Framework_001   ########## 
+2017-02-17 15:22:15,520 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:22:22,060 ERROR [Log] LOGIN / REGISTER link not found 
+2017-02-17 15:22:22,809 INFO  [Log] ******************** 
+******************** 
+2017-02-17 15:22:22,809 INFO  [Log] ##########    E N D    ########## 
+2017-02-17 15:22:22,809 INFO  [Log] ******************** 
+******************** 

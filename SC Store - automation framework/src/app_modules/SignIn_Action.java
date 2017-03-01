@@ -1,34 +1,37 @@
 package app_modules;
 
-import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 import pageObjects.Home_Page;
+import utilities.Constants;
 import utilities.ExcelUtils;
 import utilities.Log;
 
 public class SignIn_Action {
 	
-		private WebDriver driver = null;
+		//private WebDriver driver = null;
 	
-	public static void Execute(WebDriver driver) throws Exception{
-		
-		String username = ExcelUtils.getCellData(1,1);
-		Log.info("Username: " + username);
-		String password = ExcelUtils.getCellData(1,2);
-		Log.info("Password: " + password);
-		
-		
-		Home_Page.lnk_loginRegister(driver).click();
+	public static void Execute(int iTestCaseRow) throws Exception{
+			
+		String sUsername = ExcelUtils.getCellData(iTestCaseRow, Constants.col_UserName);
+		String sPassword = ExcelUtils.getCellData(iTestCaseRow, Constants.col_Password);
+				
+		//click LOGIN/REGISTER
+		Home_Page.Header.lnk_loginRegister().click();
 		Log.info("Click on LOGIN/REGISTER...");
 		
-		Home_Page.txtbx_email(driver).sendKeys(username);
-		Log.info("Username entered...");
-		
-		Home_Page.txtbx_password(driver).sendKeys(password);
+		//Enter username and pwd
+		Home_Page.Header.txtbx_email().sendKeys(sUsername);
+		Log.info("UserName entered...");
+		Home_Page.Header.txtbx_password().sendKeys(sPassword);
 		Log.info("Password entered...");
 		
-		Home_Page.btn_login(driver).click();
+		//click on Login
+		Home_Page.Header.btn_login().click();
 		Log.info("Click on login button...");
+		
+		Reporter.log("SignIn Action executed succesfully");
+	
 	}
 
 }

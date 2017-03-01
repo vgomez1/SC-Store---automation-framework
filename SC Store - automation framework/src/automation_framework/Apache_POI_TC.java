@@ -16,6 +16,8 @@ public class Apache_POI_TC {
 	public static void main(String[] args) throws Exception
 	{
 		
+		
+		
 		ExcelUtils.setExcelFile(Constants.testDataFile_path + Constants.testDataFile_name, "Sheet1");
 		
 		String driverPath = "C:\\workspaceV\\Libraries\\chromedriver_win32\\chromedriver.exe";
@@ -32,7 +34,7 @@ public class Apache_POI_TC {
 //		RegisterNewUser_Action.Execute(driver);
 		
 		//Test case: module SignIn
-		SignIn_Action.Execute(driver);
+		SignIn_Action.Execute(iTestCaseRow);
 		
 		ExcelUtils.setCellData("Pass", 1, 3);
 		System.out.println("DONE...");
